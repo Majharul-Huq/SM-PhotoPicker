@@ -12,7 +12,14 @@
 		C5B0309A1C3EB15D002FEF86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030991C3EB15D002FEF86 /* ViewController.m */; };
 		C5B0309D1C3EB15D002FEF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B0309B1C3EB15D002FEF86 /* Main.storyboard */; };
 		C5B0309F1C3EB15D002FEF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B0309E1C3EB15D002FEF86 /* Assets.xcassets */; };
-		C5B030A21C3EB15D002FEF86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B030A01C3EB15D002FEF86 /* LaunchScreen.storyboard */; };
+		C5B030AA1C3EB764002FEF86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B030A91C3EB764002FEF86 /* Default-568h@2x.png */; };
+		C5B030B91C3EB9B8002FEF86 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030AE1C3EB9B8002FEF86 /* FXBlurView.m */; };
+		C5B030BA1C3EB9B8002FEF86 /* UIImage+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030B01C3EB9B8002FEF86 /* UIImage+Colors.m */; };
+		C5B030BB1C3EB9B8002FEF86 /* JKPopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030B31C3EB9B8002FEF86 /* JKPopMenuItem.m */; };
+		C5B030BC1C3EB9B8002FEF86 /* JKPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030B51C3EB9B8002FEF86 /* JKPopMenuView.m */; };
+		C5B030BD1C3EB9B8002FEF86 /* JTSlideShadowAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B030B81C3EB9B8002FEF86 /* JTSlideShadowAnimation.m */; };
+		C5B030C01C3EC070002FEF86 /* Screenshot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B030BE1C3EC070002FEF86 /* Screenshot-1.png */; };
+		C5B030C11C3EC070002FEF86 /* Screenshot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B030BF1C3EC070002FEF86 /* Screenshot-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +31,20 @@
 		C5B030991C3EB15D002FEF86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5B0309C1C3EB15D002FEF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5B0309E1C3EB15D002FEF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5B030A11C3EB15D002FEF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B030A31C3EB15D002FEF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B030A91C3EB764002FEF86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5B030AD1C3EB9B8002FEF86 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		C5B030AE1C3EB9B8002FEF86 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		C5B030AF1C3EB9B8002FEF86 /* UIImage+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Colors.h"; sourceTree = "<group>"; };
+		C5B030B01C3EB9B8002FEF86 /* UIImage+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Colors.m"; sourceTree = "<group>"; };
+		C5B030B21C3EB9B8002FEF86 /* JKPopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPopMenuItem.h; sourceTree = "<group>"; };
+		C5B030B31C3EB9B8002FEF86 /* JKPopMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopMenuItem.m; sourceTree = "<group>"; };
+		C5B030B41C3EB9B8002FEF86 /* JKPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPopMenuView.h; sourceTree = "<group>"; };
+		C5B030B51C3EB9B8002FEF86 /* JKPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopMenuView.m; sourceTree = "<group>"; };
+		C5B030B71C3EB9B8002FEF86 /* JTSlideShadowAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSlideShadowAnimation.h; sourceTree = "<group>"; };
+		C5B030B81C3EB9B8002FEF86 /* JTSlideShadowAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSlideShadowAnimation.m; sourceTree = "<group>"; };
+		C5B030BE1C3EC070002FEF86 /* Screenshot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-1.png"; sourceTree = "<group>"; };
+		C5B030BF1C3EC070002FEF86 /* Screenshot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +61,7 @@
 		C5B030861C3EB15D002FEF86 = {
 			isa = PBXGroup;
 			children = (
+				C5B030A91C3EB764002FEF86 /* Default-568h@2x.png */,
 				C5B030911C3EB15D002FEF86 /* SM-PhotoPicker */,
 				C5B030901C3EB15D002FEF86 /* Products */,
 			);
@@ -58,13 +78,15 @@
 		C5B030911C3EB15D002FEF86 /* SM-PhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C5B030BE1C3EC070002FEF86 /* Screenshot-1.png */,
+				C5B030BF1C3EC070002FEF86 /* Screenshot-2.png */,
+				C5B030AB1C3EB9B8002FEF86 /* Library */,
 				C5B030951C3EB15D002FEF86 /* AppDelegate.h */,
 				C5B030961C3EB15D002FEF86 /* AppDelegate.m */,
 				C5B030981C3EB15D002FEF86 /* ViewController.h */,
 				C5B030991C3EB15D002FEF86 /* ViewController.m */,
 				C5B0309B1C3EB15D002FEF86 /* Main.storyboard */,
 				C5B0309E1C3EB15D002FEF86 /* Assets.xcassets */,
-				C5B030A01C3EB15D002FEF86 /* LaunchScreen.storyboard */,
 				C5B030A31C3EB15D002FEF86 /* Info.plist */,
 				C5B030921C3EB15D002FEF86 /* Supporting Files */,
 			);
@@ -77,6 +99,47 @@
 				C5B030931C3EB15D002FEF86 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B030AB1C3EB9B8002FEF86 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C5B030AC1C3EB9B8002FEF86 /* FXBlurView */,
+				C5B030B11C3EB9B8002FEF86 /* JKPopMenu */,
+				C5B030B61C3EB9B8002FEF86 /* JTSlideShadowAnimation */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C5B030AC1C3EB9B8002FEF86 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				C5B030AD1C3EB9B8002FEF86 /* FXBlurView.h */,
+				C5B030AE1C3EB9B8002FEF86 /* FXBlurView.m */,
+				C5B030AF1C3EB9B8002FEF86 /* UIImage+Colors.h */,
+				C5B030B01C3EB9B8002FEF86 /* UIImage+Colors.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		C5B030B11C3EB9B8002FEF86 /* JKPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5B030B21C3EB9B8002FEF86 /* JKPopMenuItem.h */,
+				C5B030B31C3EB9B8002FEF86 /* JKPopMenuItem.m */,
+				C5B030B41C3EB9B8002FEF86 /* JKPopMenuView.h */,
+				C5B030B51C3EB9B8002FEF86 /* JKPopMenuView.m */,
+			);
+			path = JKPopMenu;
+			sourceTree = "<group>";
+		};
+		C5B030B61C3EB9B8002FEF86 /* JTSlideShadowAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5B030B71C3EB9B8002FEF86 /* JTSlideShadowAnimation.h */,
+				C5B030B81C3EB9B8002FEF86 /* JTSlideShadowAnimation.m */,
+			);
+			path = JTSlideShadowAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B030A21C3EB15D002FEF86 /* LaunchScreen.storyboard in Resources */,
+				C5B030AA1C3EB764002FEF86 /* Default-568h@2x.png in Resources */,
 				C5B0309F1C3EB15D002FEF86 /* Assets.xcassets in Resources */,
 				C5B0309D1C3EB15D002FEF86 /* Main.storyboard in Resources */,
+				C5B030C11C3EC070002FEF86 /* Screenshot-2.png in Resources */,
+				C5B030C01C3EC070002FEF86 /* Screenshot-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B030BD1C3EB9B8002FEF86 /* JTSlideShadowAnimation.m in Sources */,
 				C5B0309A1C3EB15D002FEF86 /* ViewController.m in Sources */,
+				C5B030B91C3EB9B8002FEF86 /* FXBlurView.m in Sources */,
+				C5B030BB1C3EB9B8002FEF86 /* JKPopMenuItem.m in Sources */,
 				C5B030971C3EB15D002FEF86 /* AppDelegate.m in Sources */,
 				C5B030941C3EB15D002FEF86 /* main.m in Sources */,
+				C5B030BA1C3EB9B8002FEF86 /* UIImage+Colors.m in Sources */,
+				C5B030BC1C3EB9B8002FEF86 /* JKPopMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,14 +234,6 @@
 				C5B0309C1C3EB15D002FEF86 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5B030A01C3EB15D002FEF86 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5B030A11C3EB15D002FEF86 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SM-PhotoPicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sm.photopicker.SM-PhotoPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SM-PhotoPicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sm.photopicker.SM-PhotoPicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +362,7 @@
 				C5B030A81C3EB15D002FEF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
